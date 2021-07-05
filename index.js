@@ -26,6 +26,7 @@ btnCapture.addEventListener('click',function clickEvent(event){
 
   console.log(username.length)
 
+  
    if(username.length == 0) {
     document.getElementById('nameRequired').innerHTML='Username is required'
       //statement

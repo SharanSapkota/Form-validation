@@ -22,6 +22,7 @@ btnCapture.addEventListener('click',function clickEvent(event){
   empObj.username = username;
   empObj.password = password;
   empObj.email = email;
+  console.log(empObj)
 
   console.log(username.length)
 
